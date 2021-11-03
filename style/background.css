@@ -1,0 +1,105 @@
+body#main{
+    background-image: url("../images/menu.jpg");
+    background-size: 100% auto;
+}
+
+body#A_firstentry{
+    background-image: url("../images/A_firstentry.png");
+    background-size: 100% auto;
+}
+
+body#A_link{
+    background-image: url("../images/A_link.png");
+    background-size: 100% auto;
+}
+
+body#A_lobby{
+    background-image: url("../images/A_lobby.png");
+    background-size: 100% auto;
+}
+
+body#A_long{
+    background-image: url("../images/A_long.png");
+    background-size: 100% auto;
+}
+
+body#A_site{
+    background-image: url("../images/A_site.png");
+    background-size: 100% auto;
+}
+
+body#B_link{
+    background-image: url("../images/B_link.png");
+    background-size: 100% auto;
+}
+
+body#B_lobby{
+    background-image: url("../images/B_lobby.png");
+    background-size: 100% auto;
+}
+
+body#B_site{
+    background-image: url("../images/B_site.png");
+    background-size: 100% auto;
+}
+
+body#bottom_mid{
+    background-image: url("../images/bottom_mid.png");
+    background-size: 100% auto;
+}
+
+body#catwalk{
+    background-image: url("../images/catwalk.png");
+    background-size: 100% auto;
+}
+
+body#garden{
+    background-image: url("../images/garden.png");
+    background-size: 100% auto;
+}
+
+body#heaven{
+    background-image: url("../images/heaven.png");
+    background-size: 100% auto;
+}
+
+body#left_side{
+    background-image: url("../images/left_side.png");
+    background-size: 100% auto;
+}
+
+body#market{
+    background-image: url("../images/market.png");
+    background-size: 100% auto;
+}
+
+body#mid{
+    background-image: url("../images/mid.png");
+    background-size: 100% auto;
+}
+
+body#pizza{
+    background-image: url("../images/pizza.png");
+    background-size: 100% auto;
+}
+
+body#right_side{
+    background-image: url("../images/right_side.png");
+    background-size: 100% auto;
+}
+
+body#spawn{
+    background-image: url("../images/spawn.png");
+    background-attachment: fixed!important;
+    background-size: cover!important;
+}
+
+body#top_mid{
+    background-image: url("../images/top_mid.png");
+    background-size: 100% auto;
+}
+
+body#tunnels{
+    background-image: url("../images/tunnels.png");
+    background-size: 100% auto;
+}
