@@ -1,0 +1,40 @@
+#musicIcons {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #525252;
+    box-shadow: inset 1px 0px 10px black;
+}
+
+#sideMusic {
+    display: block;
+    position: absolute;
+    top: 105px;
+    right: -50px;
+    height: 555px;
+    width: 50px;
+}
+
+#musicOn{
+    position: absolute;
+    width:30px;
+    height:30px;
+    left: 20%;
+    top: 20%;
+    visibility: hidden;
+}
+
+#musicOff{
+    position: absolute;
+    width:41px;
+    height:41px;
+    left: 9%;
+    top: 9%;
+}

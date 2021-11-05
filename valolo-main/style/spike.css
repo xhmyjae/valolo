@@ -1,0 +1,40 @@
+#spike_img{
+    cursor: pointer;
+    position: absolute;
+    width:60.8px;
+    height:107.9px;
+    border-radius: 30px;
+    left: 85%;
+    top: 70%;
+}
+
+#endGame{
+    position: relative;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    background-color: rgba(255,255,255,.851);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    display: none;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+.bttn {
+    background-color: rgba(243, 78, 78, .851);
+    border: 3px solid rgb(243, 78, 78);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.bttn:hover {
+    background: linear-gradient(to bottom, rgb(219, 219, 219), rgb(243, 78, 78));
+}

@@ -1,0 +1,5 @@
+body#main{
+    background-image: url("../images/menu.jpg");
+    background-attachment: fixed!important;
+    background-size: cover!important;
+}

@@ -1,0 +1,63 @@
+#objBox {
+    position: fixed;
+    top:30%;
+    /*max-width: 21.4062%;*/
+    background-color: rgba(199, 199, 199, 0.851);
+    border: 3px solid rgb(199, 199, 199);
+    width: 150px;
+    right: 100%;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 13px 16px;
+    position: absolute;
+    text-align: left;
+    z-index: 20;
+    overflow-wrap: break-word;
+    visibility: hidden;
+}
+
+#objList {
+    list-style: square;
+    display: none;
+}
+
+#objBox h3 {
+    position: relative;
+    left: 0%;
+}
+
+#logo{
+    position: absolute;
+    width:30px;
+    height:30px;
+    left: 20%;
+    top: 20%;
+}
+
+#objIcon{
+    cursor: pointer;
+    position: relative;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #525252;
+    box-shadow: inset 1px 0px 10px black;
+}
+
+#objIcon:hover + #objBox{
+    visibility: visible;
+}
+
+#objectives{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    height: 0px;
+    width: 50px;
+}
