@@ -8,18 +8,35 @@
     justify-content: center;
 }
 
+#game h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(99, 99, 99) 1px 0 7px;
+    display: flex;
+    justify-content: center;
+}
+
 #entry{
-    display: block;
-    position: absolute;
-    right: 42%;
+    display: flex;
+    justify-content: center;
+}
+
+#entry a{
+    display: inline-block;
     padding: 10px 20px;
     font-size: 17px;
+    color: rgb(255, 255, 255);
     border: thick double white;
     background-color: rgb(243, 78, 78);
     border-radius: 10px; 
 }
 
-#entry:hover{
+#entry a, #entry a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#entry a:hover{
     background-color: rgb(24, 22, 22);
 }
 
@@ -40,7 +57,8 @@
 
 #quote{
     position: absolute;
-    right: 0%;
-    bottom: 124px;
+    right: 1%;
+    bottom: 14%;
     color: rgba(146, 146, 146, 0.781);
+    text-shadow: 1px 1px 2px black;
 }

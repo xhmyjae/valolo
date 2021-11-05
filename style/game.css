@@ -1,0 +1,17 @@
+#game{
+    background-image: url("../images/background.jpg");
+    z-index: 50;
+}
+
+#base{
+    z-index: 60;
+    width: 1240px;
+    height: 698px;
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    background-image: url("../images/spawn.png");
+    background-size: 100% auto;
+}

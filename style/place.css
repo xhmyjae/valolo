@@ -1,0 +1,33 @@
+.place{
+    position: relative;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 88.8%;
+    width: 50px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #525252;
+    transition: background-color .5s;
+    box-shadow: inset 1px 0px 10px black;
+}
+
+#sideInfo{
+    display: block;
+    position: absolute;
+    top: 205px;
+    right: -50px;
+    height: 555px;
+    width: 50px;
+}
+
+.place span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 30px;
+    letter-spacing: .9rem;
+    color: whitesmoke;
+    position: relative;
+    top: 5%;
+}
