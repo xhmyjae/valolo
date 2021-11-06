@@ -1,3 +1,4 @@
+/* all the hideShow functions allow to show the icons for a specific scene. Each places got their own positioning */
 function hideShowA_firstentry() {
     hideIcons()
     document.getElementById("icon_top_mid").style.visibility = "visible";
@@ -6,9 +7,9 @@ function hideShowA_firstentry() {
     document.getElementById("icon_A_lobby").style.visibility = "visible";
     document.getElementById("icon_A_lobby").style.left = "58%";
     document.getElementById("icon_A_lobby").style.top = "45%";
-    document.getElementById("icon_spawn").style.visibility = "visible";   
-    document.getElementById("icon_spawn").style.left = "48%";   
-    document.getElementById("icon_spawn").style.top = "70%";   
+    document.getElementById("icon_spawn").style.visibility = "visible";
+    document.getElementById("icon_spawn").style.left = "48%";
+    document.getElementById("icon_spawn").style.top = "70%";
     document.getElementById("name").innerHTML = "A FIRST ENTRY";
 }
 
@@ -212,8 +213,8 @@ function hideShowtunnels() {
 }
 
 
-/**/
-function hideIcons(){
+/* hideIcons hides all the icons and hide the spike too */
+function hideIcons() {
     document.getElementById("icon_A_firstentry").style.visibility = "hidden";
     document.getElementById("icon_A_link").style.visibility = "hidden";
     document.getElementById("icon_A_lobby").style.visibility = "hidden";
@@ -235,7 +236,7 @@ function hideIcons(){
     document.getElementById("spike").style.visibility = "hidden";
 }
 
-/**/
+/* hideChoices hide all the choices and their bubble */
 function hideChoices() {
     document.getElementById("Achoice").style.display = "none";
     document.getElementById("Abubble").style.display = "none";

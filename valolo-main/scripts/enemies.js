@@ -1,3 +1,5 @@
+/* show enemies and allow to click on them, this is still in progress and isn't available in the current version of the game */
+
 window.addEventListener('DOMContentLoaded', init);
 
 
