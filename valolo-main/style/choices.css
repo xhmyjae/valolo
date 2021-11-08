@@ -4,26 +4,28 @@
     left: 15%;
     right: -13.91%;
     overflow: hidden;
+    width: 85%;
+    height: 100%;
 }
 
 #scene_choices {
     z-index: 30;
-    position: relative;
-    bottom: -4px;
+    position: absolute;
+    bottom: -1%;
     right: -4px;
-    width: 85%;
+    width: 97.2%;
     border: solid rgb(243, 78, 78) 4px;
     background-color: rgba(255,255,255,.851);
     display: block;
-    padding: 15px 0 10px;
+    padding: 1.5% 0 1%;
     overflow: hidden;
 }
 
 #avatar {
     z-index: 40;
-    bottom: -60px;
-    height: 250px;
-    width: 250px;
+    bottom: -10%;
+    height: 16vw;
+    width: 16vw;
     box-shadow: 0 -3px 2px 1px rgb(243, 78, 78);
     opacity: 1;
     display: block;
@@ -31,7 +33,7 @@
     border-radius: 50%;
     background: white;
     overflow: hidden;
-    position: relative;
+    position: absolute;
 }
 
 #viper_avatar{
@@ -44,7 +46,9 @@
 #posAv{
     position: absolute;
     bottom: 0%;
-    left: 25px;
+    left: 5%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -57,7 +61,7 @@
 }
 
 #sage{
-    width: 85%;
+    width: 35vw;
     position: relative;
     top: 15%;
 }
@@ -80,8 +84,8 @@
     font-weight: bold;
     font-weight: bold;
     cursor: pointer;
-    padding: 3px 10px 3px 100px;
-    line-height: 24px;
+    padding: 0.1% 0% 0.1% 15%;
+    line-height: 150%;
     text-align: left;
     list-style: upper-alpha inside;
 }
@@ -101,12 +105,12 @@
     left: 18.75%;
     max-width: 21.4062%;
     background-color: rgba(255,255,255,.851);
-    border-radius: 25px;
+    border-radius: 2vw;
     border: 3px solid white;
     box-sizing: content-box;
     font-weight: normal;
-    line-height: 30px;
-    padding: 13px 16px;
+    line-height: 2vw;
+    padding: 1% 2%;
     position: absolute;
     text-align: left;
     z-index: 20;

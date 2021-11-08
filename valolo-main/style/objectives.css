@@ -1,14 +1,13 @@
 #objBox {
     position: fixed;
-    top:30%;
+    top:0%;
     /*max-width: 21.4062%;*/
     background-color: rgba(199, 199, 199, 0.851);
     border: 3px solid rgb(199, 199, 199);
-    width: 150px;
+    width: 10vw;
     right: 100%;
     font-weight: normal;
-    line-height: 30px;
-    padding: 13px 16px;
+    padding: 15% 20%;
     position: absolute;
     text-align: left;
     z-index: 20;
@@ -19,17 +18,19 @@
 #objList {
     list-style: square;
     display: none;
+    font-size: 1.1vw;
 }
 
 #objBox h3 {
     position: relative;
     left: 0%;
+    font-size: 1.2vw;
 }
 
 #logo{
     position: absolute;
-    width:30px;
-    height:30px;
+    width: 2.1vw;
+    height: 2.1vw;
     left: 20%;
     top: 20%;
 }
@@ -41,8 +42,8 @@
     text-decoration: none;
     text-align: center;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 3.5vw;
+    width: 3.5vw;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     background-color: #525252;
@@ -57,7 +58,5 @@
     display: block;
     position: absolute;
     top: 0px;
-    right: -50px;
-    height: 0px;
-    width: 50px;
+    right: -4.7%;
 }

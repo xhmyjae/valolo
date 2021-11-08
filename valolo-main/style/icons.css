@@ -1,8 +1,8 @@
 .icons{
     cursor: pointer;
     position: absolute;
-    width:42px;
-    height:42px;
+    width: 3vw;
+    height: 3vw;
     border-radius: 30px;
     visibility: hidden;
 }
@@ -14,11 +14,11 @@
 .icons+.descri{
     display: inline-block;
     position: absolute;
-    padding: 10px 20px;
-    font-size: 15px;
+    padding: 1.5% 2%;
+    font-size: 1vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.562);
-    border-radius: 10px; 
+    border-radius: 1vw; 
     visibility:hidden;
 }
 

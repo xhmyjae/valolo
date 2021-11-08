@@ -14,6 +14,7 @@ function gotSpike() {
 /* onAsite will start when the user gets on A site. If they took the spike it will start the final choice */
 function onASite() {
     if (noSpike == false) {
+        document.getElementById("name").innerHTML = "A SITE";
         hideIcons()
         endGameA()
     } else {
@@ -24,6 +25,7 @@ function onASite() {
 /* onBsite will start when the user gets on A site. If they took the spike it will start the final choice */
 function onBSite() {
     if (noSpike == false) {
+        document.getElementById("name").innerHTML = "B SITE";
         hideIcons()
         endGameB()
     } else {

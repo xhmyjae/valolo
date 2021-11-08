@@ -5,8 +5,8 @@
     text-decoration: none;
     text-align: center;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 3.5vw;
+    width: 3.5vw;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     background-color: #525252;
@@ -16,16 +16,14 @@
 #sideMusic {
     display: block;
     position: absolute;
-    top: 105px;
-    right: -50px;
-    height: 555px;
-    width: 50px;
+    top: 20%;
+    right: -4.7%;
 }
 
 #musicOn{
     position: absolute;
-    width:30px;
-    height:30px;
+    width: 2.1vw;
+    height: 2.1vw;
     left: 20%;
     top: 20%;
     visibility: hidden;
@@ -33,8 +31,8 @@
 
 #musicOff{
     position: absolute;
-    width:41px;
-    height:41px;
+    width: 3vw;
+    height: 3vw;
     left: 9%;
     top: 9%;
 }

@@ -1,8 +1,7 @@
 #spike_img{
     cursor: pointer;
     position: absolute;
-    width:60.8px;
-    height:107.9px;
+    width: 4.5vw;
     border-radius: 30px;
     left: 85%;
     top: 70%;
@@ -14,8 +13,8 @@
     top: 40%;
     width: 50%;
     background-color: rgba(255,255,255,.851);
-    padding: 10px;
-    border-radius: 5px;
+    padding: 1vw;
+    border-radius: 0.5vw;
     box-shadow: 0 0 10px 2px;
     display: none;
 }
@@ -23,16 +22,17 @@
 .btn-grid{
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
+    gap: 2%;
 }
 
 .bttn {
     background-color: rgba(243, 78, 78, .851);
     border: 3px solid rgb(243, 78, 78);
-    border-radius: 5px;
-    padding: 5px 10px;
+    border-radius: 0.5vw;
+    padding: 1% 2%;
     color: white;
     outline: none;
+    font-size: 1vw;
 }
 
 .bttn:hover {
