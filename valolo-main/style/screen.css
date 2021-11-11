@@ -1,0 +1,44 @@
+@media (orientation: portrait) {
+    h1{
+        margin-top: 30vw;
+        font-size: 11vw!important;
+    }
+
+    #entry a{
+        font-size: 4vw;
+    }
+
+    #explain{
+        font-size: 4vw;
+    }
+
+    #explain p{
+        margin-right: 10%;
+    }
+
+    #base{
+        transform: rotate(90deg);
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 812px) 
+                   and (orientation: landscape) {
+
+                    h1{
+                        margin:0;
+                    }
+                
+                    #entry a{
+                        font-size: 2vw;
+                    }
+                
+                    #explain{
+                        font-size: 2vw;
+                    }
+                
+                    #explain p{
+                        margin-right: 10%;
+                    }
+}
